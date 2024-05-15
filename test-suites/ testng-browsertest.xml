@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="LambdaTest ecommerce playground website test suite">
+
+    <test  name="Web Automation Demo tests with Playwright">
+        <classes>
+            <class name="PlaywrightDemoTest"><!-- close tag is redundant here-->
+                <methods>
+                    <include name="testOnChromeHeadless"/>
+                    <include name="testOnChrome"/>
+                    <include name="testOnFirefoxHeadless"/>
+                    <include name="testOnFirefox"/>
+                    <include name="testOnEdge"/>
+                </methods>
+            </class><!-- close tag should be here-->
+
+        </classes>
+    </test>
+
+
+</suite>
