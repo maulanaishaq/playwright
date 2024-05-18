@@ -2,11 +2,11 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
 
-<suite name="LambdaTest ecommerce playground website test suite">
+<suite name="Tes runner multiple browser">
 
     <test  name="Web Automation Demo tests with Playwright">
         <classes>
-            <class name="PlaywrightDemoTest"><!-- close tag is redundant here-->
+            <class name="PlaywrightDemoTest">
                 <methods>
                     <include name="testOnChromeHeadless"/>
                     <include name="testOnChrome"/>
@@ -14,7 +14,7 @@
                     <include name="testOnFirefox"/>
                     <include name="testOnEdge"/>
                 </methods>
-            </class><!-- close tag should be here-->
+            </class>
 
         </classes>
     </test>
